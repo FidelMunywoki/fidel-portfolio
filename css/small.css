@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+    .row-height>div>img{
+        margin-top: -25%;
+    }
+    .border-check{
+        margin-top: 100%;
+    }
+
+    
+  } 
