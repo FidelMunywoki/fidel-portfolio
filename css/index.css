@@ -1,0 +1,78 @@
+.row-1{ 
+    height: 500px;
+    background-image: url(../assets/bg-img-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+nav a{
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+nav>div{
+    margin-bottom: 450px;
+    padding: 15px;
+    margin-left: 0px;
+    background-color: rgba(201, 177, 177, 0.7);
+}
+
+
+
+
+.row-height{
+    height: 350px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -15%;
+ 
+}
+
+.row-height img{
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    
+}
+
+
+.name-row{
+    background-color: rgba(126,91,91, 0.7);
+    height: 100px;
+    width: 70%;
+    color: white;
+}
+
+.name-row h4{
+    margin-left: 10%;
+}
+
+.about-row{
+    margin-top: 15%;
+}
+
+.about-row :nth-child(2){
+    border: 1px solid rgba(126,91,91, 0.7);
+    border-radius: 5%;
+    width: 25%;
+    text-align: center;
+    height: 40px;
+   
+}
+
+.about-row :nth-child(2) p{
+    margin-top: 8%;
+    color: rgba(126,91,91, 0.9);
+}
+
+.experience-row{
+    margin-top: 20%;
+    text-align: center;
+    background-color: rgba(126,91,91, 0.4);
+    height: 300px;
+}
+
