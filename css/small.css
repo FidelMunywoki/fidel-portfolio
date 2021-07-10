@@ -1,4 +1,9 @@
 @media only screen and (max-width: 600px) {
+   nav{
+       margin-bottom: 50%
+   };
+
+
     .row-height>div>img{
         margin-top: -25%;
     }
@@ -16,6 +21,11 @@
   } 
 
 @media only screen and (max-width: 768px){
+    nav{
+        margin-bottom: 50%;
+    }
+
+
     .row-height>div>img{
         margin-top: -25%;
     }
@@ -25,4 +35,13 @@
     }
 
    
+}
+
+@media only screen and (max-width: 800px){
+  
+    
+
+    .border-check{
+        margin-top: 30%;
+    }
 }
