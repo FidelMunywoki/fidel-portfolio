@@ -112,3 +112,8 @@ nav>div{
     border: 1px brown;
 
 }
+
+.footer-bg-color{
+    background-color: #7E5B5B;
+    color: white;
+}
