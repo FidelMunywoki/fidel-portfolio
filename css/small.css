@@ -6,5 +6,23 @@
         margin-top: 100%;
     }
 
+    .card-border img{
+        height: 200px;
+        width: 70%;
+    }
+    
+
     
   } 
+
+@media only screen and (max-width: 768px){
+    .row-height>div>img{
+        margin-top: -25%;
+    }
+    
+    .border-check{
+        margin-top: 100%;
+    }
+
+   
+}
