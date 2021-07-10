@@ -25,13 +25,13 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="#about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">Projects</a>
+                        <a class="nav-link active" href="#projects">Projects</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">Contacts</a>
+                        <a class="nav-link active" href="#contacts">Contacts</a>
                       </li>
                       
                     </ul>
@@ -60,7 +60,7 @@
                                 I truly get excited when a new kernel of Linux is released or when a new Web application that does something never done 
                                 before becomes available for beta testing.</p>
 
-                            <div><p>About Me</p></div>
+                            <div><p id="about">About Me</p></div>
 
                         </div>
                         
@@ -133,7 +133,7 @@
 
     <div class="container anchor-design">
         <div class="projects">
-            <h4>Projects</h4>
+            <h4 id="projects">Projects</h4>
         </div>
 
         <div class="row">
@@ -177,32 +177,91 @@
 
     <div class="container-fluid projects footer-">
         <div class="row">
-            <h4>Contact Information</h4>
+            <h4 id="contacts">Contact Information</h4>
             <div class="col-md-6">
-                <div>
-                    <p>Department of Technology</p>
-                    <p>Inovation Center</p>
-                </div>
-
-                <div>
-                    <p>J-Town, Gate C St.</p>
-                    <p>Juja City</p>
-                    <p>fidelis.munywoki@student.moringaschool.com</p>
-                    <p>+2542711356789</p>
-                </div>
+                <ul>
+                    <li>Department of Technology</li>
+                    <li>Innovation Center</li>
+                    <li>J-Town, Gate C St.</li>
+                    <li>fidelis.munywoki@students.moringaschool.com</li>
+                    <li>+25427113547</li>
+                </ul>
+                
 
                 <div class="footer-icons">
                     <div><a href="https://github.com/FidelMunywoki"><img src="./assets/github-icon.png" alt="github"></a></div>
                     <div><a href="https://www.linkedin.com/in/fidelmunywoki/"><img src="./assets/linkedIn-icon.png" alt="linkedIN"></a></div>
                     <div><a href="#"><img src="./assets/twitter-icon.jpg" alt="twitter"></a></div>
                     <div><a href="#"><img src="./assets/Facebook-icon.png" alt="Facebok"></a></div>
-                    <div><a href="#"><img src="./assets/instagram-icon.jpg" alt="Instagram"></a></div>
+                    <div><a href="#"><img src="./assets/instagram-icon.png" alt="Instagram"></a></div>
                 </div>
              
             </div>
+            <!-- Contact form -->
 
             <div class="col-md-6">
-                <p>hhhhhhhhhhhhhhhh</p>
+                
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationTooltip01" value=" " required>
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltip02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationTooltip02" value=" " required>
+                      <div class="valid-tooltip">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                      <label for="validationTooltipUsername" class="form-label">Email</label>
+                      <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationTooltipEmail" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                        
+                        <div class="invalid-tooltip">
+                          Please choose a unique and valid username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 position-relative">
+                      <label for="validationTooltip03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationTooltip03" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                      <label for="validationTooltip04" class="form-label">State</label>
+                      <select class="form-select" id="validationTooltip04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>Nairobi</option>
+                        <option>Mombasa</option>
+                        <option>Machakos</option>
+                      </select>
+                      <div class="invalid-tooltip">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                      <label for="validationTooltip05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationTooltip05" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Leave a message ...." aria-label="Leave a message" aria-describedby="basic-addon2">
+                      </div>
+
+                    <div class="col-12 submit">
+                      <button class="btn btn-primary" type="submit">Submit message</button>
+                    </div>
+                  </form>
+               
             </div>
 
         </div>
