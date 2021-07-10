@@ -113,7 +113,33 @@ nav>div{
 
 }
 
-.footer-bg-color{
+.footer-{
     background-color: #7E5B5B;
     color: white;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footer->div>div{
+    text-align: left;
+    padding-left: 5%;
+    border-right: 1px solid white;
+}
+
+.footer-icons{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.footer-icons img{
+    border-radius: 50%;
+    background-color: white;
+    height: 20px;
+  
+    
+
 }
