@@ -22,14 +22,6 @@ nav>div{
 }
 
 
-/* div{
-    border: 1px dashed green;
-}
- */
-/* .border-check div{
-    border: 1px dashed red;
-} */
-
 .row-height{
     height: 350px;
     width: 90%;
@@ -136,10 +128,21 @@ nav>div{
 }
 
 .footer-icons img{
-    border-radius: 50%;
+     box-sizing: border-box;
+     position: relative;
+     display: block;
+     transform: rotate(45deg) scale(var(--ggs,1));
     background-color: white;
     height: 20px;
-  
-    
+    width: 20px;   
 
+}
+
+
+.submit button{
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 25%;
+    text-align: center;
+    background-color: rgba(126,91,91, 0.7);
 }
