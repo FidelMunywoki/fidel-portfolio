@@ -88,7 +88,14 @@ nav>div{
 }
 
 
-.projects{
-    background-color: rgba(126,91,91, 1);
+.hobbies-interest{
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
+
+.card-border{
+    border: 1px solid rgba(126,91,91, 0.5);
+}
