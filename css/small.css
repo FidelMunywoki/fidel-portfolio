@@ -14,3 +14,15 @@
 
     
   } 
+
+@media only screen and (max-width: 768px){
+    .row-height>div>img{
+        margin-top: -25%;
+    }
+    
+    .border-check{
+        margin-top: 100%;
+    }
+
+   
+}
