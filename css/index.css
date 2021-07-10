@@ -15,14 +15,20 @@ nav a{
 }
 
 nav>div{
-    margin-bottom: 450px;
+    margin-bottom: 50%;
     padding: 15px;
     margin-left: 0px;
     background-color: rgba(201, 177, 177, 0.7);
 }
 
 
-
+/* div{
+    border: 1px dashed green;
+}
+ */
+/* .border-check div{
+    border: 1px dashed red;
+} */
 
 .row-height{
     height: 350px;
@@ -52,7 +58,7 @@ nav>div{
 }
 
 .about-row{
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .about-row :nth-child(2){
@@ -70,9 +76,19 @@ nav>div{
 }
 
 .experience-row{
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
     background-color: rgba(126,91,91, 0.4);
-    height: 300px;
+   
+}
+
+
+.bg-color-change{
+    background-color: rgba(126,91,91, 0.1);
+}
+
+
+.projects{
+    background-color: rgba(126,91,91, 1);
 }
 
