@@ -43,6 +43,7 @@ nav>div{
     height: 100px;
     width: 70%;
     color: white;
+    border-radius: 2%;
 }
 
 .name-row h4{
