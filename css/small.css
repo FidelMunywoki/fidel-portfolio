@@ -8,11 +8,7 @@
     .row-height>div>img{
         margin-top: -25%;
     }
-    .border-check{
-        margin-top: 100%;
-        background-color: green;
-    }
-
+    
     .card-border img{
         height: 200px;
         width: 70%;
@@ -33,18 +29,10 @@
         margin-top: -25%;
     }
     
-    .border-check{
+    #shift{
         margin-top: 100%;
+        
     }
 
    
-}
-
-@media only screen and (max-width: 800px){
-  
-    
-
-    .border-check{
-        margin-top: 30%;
-    }
 }
