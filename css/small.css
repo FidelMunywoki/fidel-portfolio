@@ -3,12 +3,14 @@
        margin-bottom: 50%
    };
 
+   
 
     .row-height>div>img{
         margin-top: -25%;
     }
     .border-check{
         margin-top: 100%;
+        background-color: green;
     }
 
     .card-border img{
@@ -16,6 +18,7 @@
         width: 70%;
     }
     
+   
 
     
   } 
